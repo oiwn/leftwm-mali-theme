@@ -41,7 +41,7 @@ xfce4-power-manager &
 numlockx on
 
 #Start Polybar easy way
-polybar &> /dev/null &
+polybar -c "$SCRIPTPATH"/polybar/polybar.config &> /dev/null &
 
 # Start Polybar (Something very complex)
 # export index=0
