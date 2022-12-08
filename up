@@ -34,14 +34,15 @@ fi
 #Applications to 2run at startup
 #eww daemon
 dunst -conf "$SCRIPTPATH"/dunst/dunstrc &
-blueman-applet &
-nm-applet &
-lxqt-policykit-agent &
-xfce4-power-manager &
-numlockx on
+# blueman-applet &
+# nm-applet &
+# lxqt-policykit-agent &
+# xfce4-power-manager &
+# numlockx on
 
 #Start Polybar easy way
 polybar -c "$SCRIPTPATH"/polybar/polybar.config &> /dev/null &
+conky --config "$SCRIPTPATH"/conky/conky.conf &> /dev/null &
 
 # Start Polybar (Something very complex)
 # export index=0
