@@ -1,0 +1,6 @@
+#+title: Notes
+
+* Tasks
+** Fix conky window stay on top on restart
+** need something to select wifi network
+** DONE unload conky on leftwm down
