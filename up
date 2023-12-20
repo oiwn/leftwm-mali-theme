@@ -11,7 +11,7 @@ if [ -f "/tmp/leftwm-theme-down" ]; then
 fi
 ln -s "$SCRIPTPATH"/down /tmp/leftwm-theme-down
 
-# Boot picom
+# Boot picom (composer)
 if [ -x "$(command -v picom)" ]; then
   picom --experimental-backends --config "$SCRIPTPATH"/picom/picom.conf &> /dev/null &
 fi
